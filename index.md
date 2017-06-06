@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[page2.md](another-page).
+[page2.md](page2.md).
 
 There should be whitespace between paragraphs.
 
