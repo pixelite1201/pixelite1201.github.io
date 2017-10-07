@@ -1,8 +1,10 @@
-## My HomePage
+## My Introduction
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Hi,
 
-## [](#header-2)Header 2
+I am a Lead Engineer working at Samsung R&D Institute Bangalore, India. I work with multimedia team at Samsung, which works in camera domain. I have academic and industrial experience in Computer Graphics, Image Processing and Computer Vision. I have also worked in application of Machine Learning and Deep Learning to these areas. Before that I was Masters Student at IIT Bombay and have published a paper at the GRAPP 2016 conference, Rome, Italy.
+
+## My Projects
 
 > This is a blockquote following a header.
 >
