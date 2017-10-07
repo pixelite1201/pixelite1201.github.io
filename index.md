@@ -5,10 +5,10 @@ I am a Lead Engineer working at Samsung R&D Institute Bangalore, India. I work w
 
 ## My Projects
 
-> Below you can find the details about different projects I worked on.
+> Below you can find the details about different projects I worked on in college
 
-*   [Modelling.md](Modelling the doll)
-*   [Animating.md](Animating the doll)
+*   [Modelling.md](ModellingTheDoll)
+*   [Animating.md](AnimatingTheDoll)
 *   [RayTracer.md](RayTracing)
 
 
