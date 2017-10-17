@@ -80,7 +80,7 @@ Light Rays,Positions, Normal etc. are denoted as Vectors. Contains utility funct
 
 ### Output Images
 
-![](shadow1.jpg) ![](shadowours.jpg) ![](smoothours.jpg) ![](shadow4.jpg) ![](normal1.jpg) ![](normalscene2.jpg) ![](normal3.jpg) ![](normal4.jpg)
+![](images/shadow1.jpg) ![](images/shadowours.jpg) ![](images/smoothours.jpg) ![](images/shadow4.jpg) ![](images/normal1.jpg) ![](images/normalscene2.jpg) ![](images/normal3.jpg) ![](images/normal4.jpg)
 
 ### Acknowledgement
 
