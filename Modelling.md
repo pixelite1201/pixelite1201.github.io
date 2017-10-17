@@ -3,8 +3,10 @@
 ## CS 675 Computer Graphics - Assignment 2 Part 1
 
 ### Keyboard Shortcuts
+
 Modes:
-*I	---Initial Position for all parts
+
+*  I	---Initial Position for all parts
 *  |	---Human
 *  [	---Box
 *  s	---Scene
