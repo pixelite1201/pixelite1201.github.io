@@ -1,14 +1,3 @@
-
-Cross-browser testing
-Features
-Pricing
-Live API
-About Us
-Sign In
-Sign Up
-Convert HTML to Markdown
-web developer and programmer tools
-World's simplest HTML to Markdown transformer. Just paste your HTML in the form below, press Convert to Markdown button, and you get Markdown. Press button, get Markdown. No ads, nonsense or garbage.
 # Renderman
 
 ## CS 775 Computer Graphics - Assignment 1 Part 2
@@ -85,3 +74,79 @@ World's simplest HTML to Markdown transformer. Just paste your HTML in the form 
 <center>Shadows and AreaLight</center>
 
 <center>![](shadow.jpg)</center>
+
+### 
+
+<center>Texture</center>
+
+<center>![](texture.jpg)</center>
+
+### 
+
+<center>Comparision of our Output with PRman Output</center>
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td>![RayTracer Output](shadow1.jpg)</td>
+
+<td>![Prman Output](shadowprman2.jpg)</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td>![RayTracer Output](normalscene2.jpg)</td>
+
+<td>![Prman Output](prman2.jpg)</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td>![RayTracer Output](normal4.jpg)</td>
+
+<td>![Prman Output](prman3.jpg)</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td>![RayTracer Output](normal1.jpg)</td>
+
+<td>![Prman Output](prman1.jpg)</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+### Acknowledgement
