@@ -3,8 +3,7 @@
 ## CS 675 Computer Graphics - Assignment 2 Part 1
 
 * * *
-### Problem Statement
-[Problem_Statement.pdf](A21.pdf)
+### [Problem Statement](A21.pdf)
 
 ### Keyboard Shortcuts:
 
