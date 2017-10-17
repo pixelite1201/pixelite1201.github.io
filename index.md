@@ -7,8 +7,7 @@ I am a Lead Engineer working at Samsung R&D Institute Bangalore, India. I work w
 
 > Below you can find the details about different projects I worked on in college
 
-*   [RayTracing_Part_1](ray_tracer_1.md)
-*   [RayTracing_Part_2](ray_tracer_2.md)
+*   [RayTracing](ray_tracer_1.md)
 *   [ModellingTheDoll](report_a21.md)
 *   [ModellingTheRoom](report_a22.md)
 
