@@ -3,7 +3,7 @@
 ## CS 675 Computer Graphics - Assignment 2 Part 2
 
 * * *
-
+### [Problem Statement](A22.pdf)
 ### Keyboard Shortcuts:
 
 #### While drawing camera flythrough:
