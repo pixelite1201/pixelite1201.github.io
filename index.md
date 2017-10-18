@@ -5,7 +5,7 @@ I am a Lead Engineer working at Samsung R&D Institute Bangalore, India. I work w
 
 ## My Projects
 
-> Below you can find the details about different projects I worked on in college
+> Below you can find the details about different projects I worked on in college. To view other projects I worked on please visist https://github.com/pixelite1201/
 
 *   [RayTracing](ray_tracer_1.md)
 *   [ModellingTheDoll](report_a21.md)
