@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/ppatel.png"
+              alt="Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Priyanka Patel</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <script>
+              function copyEmail() {
+                var email = "priyankapatel1201@gmail.com";
+                navigator.clipboard.writeText(email);
+                alert("Email copied to clipboard: " + email);
+              }
+            </script>
+            <li class="header__link-wrapper">
+              <a href="javascript:void(0);" class="header__link" onclick="copyEmail()">Contact</a>
+              <!-- <a href="./index.html#contact" class="header__link"> Contact </a> -->
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+
+        <style>
+          .centered-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to top right, #84c0f8, #aad0f3);
+            width: 250px; /* Set the width of the wrapper div */
+            height: 250px; /* Set the height of the wrapper div */
+            border-radius: 50%; /* Make the wrapper div circular */
+          }
+        </style>
+        
+        <div style="display: flex; justify-content: center;">
+          <div class="centered-image">
+            <div style="padding: 10px;">
+              <img src="./assets/png/ppatel6.png" alt="Logo Image" style="width: 100%; height: 100%; border-radius: 50%;" />
+            </div>
+          </div>
+        </div>
+        <p style="text-align: center; font-size: 50px;">Priyanka Patel</p>
+        <p style="text-align: center;font-size: 30px; color: rgba(255, 255, 255, 0.7);">Research Engineer</p>
+        
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I have a strong interest in the fields of computer vision, computer graphics, and deep learning. 
+            My work focuses on several areas, including 3D registration, 3D human pose and shape estimation, and synthetic data generation. 
+            <!-- I specialize in leveraging synthetic data and advanced algorithms to tackle challenging tasks, particularly in the domain of 3D human pose and shape estimation.  -->
+            With a solid programming background and a passion for finding innovative solutions, my goal is to advance the understanding and analysis of visual data.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./assets/resume.pdf" class="btn btn--bg">Resume</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/priyanka-patel-6b545540/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/pixelite1201/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://twitter.com/PriyankaP1201?t=-FDuF3CFKL5atC51m4Er5g&s=09" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/twitter-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">More about me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+
+
+
+                Hello, my name is <strong>Priyanka Patel</strong>. I have been working as a <strong>Research Engineer</strong> at the <strong>Max Planck Institute for Intelligent Systems</strong> in Tübingen since October 2018.
+                As part of my responsibilities, I have successfully implemented scalable code for registering different body models to 3D scans. I have also trained models for 
+                 3D human pose and shape estimation from monocular images using synthetic data and developed evaluation benchmarks for 3D human pose and shape estimation methods.
+          
+              </p>
+              <p class="about__content-details-para">
+                Prior to my work at the Max Planck Institute, I was a <strong>Data Scientist</strong> at <strong>Zapr Media Labs</strong> in Bangalore, where I focused on anomaly detection in 
+                time series TV viewership data and user profile generation using topic modeling techniques. Before that, I have served as a <strong>Lead Engineer</strong> at 
+                the <strong>Samsung R&D Institute</strong> in Bangalore.
+                I did my <strong>Matser's</strong> in Computer Science and Engineering from <strong>IIT Bombay</strong> and my thesis was  on designing 
+                a Data-Assisted Interface for Hand-Drawn 2D Animation.
+              </p>
+            </div>
+          <style>
+            #link {
+              display: none;
+            }
+          </style>
+
+          <p><span id="link">priyankapatel1201@gmail.com</span></p>
+
+          <button class="btn btn--med btn--theme dynamicBgClr" onclick="copyLink()">Contact</button>
+        
+          <script>
+            function copyLink() {
+              var linkElement = document.getElementById('link');
+              var linkText = linkElement.innerText;
+              
+              var tempInput = document.createElement('input');
+              tempInput.setAttribute('value', linkText);
+              document.body.appendChild(tempInput);
+              tempInput.select();
+              document.execCommand('copy');
+              document.body.removeChild(tempInput);
+              
+              alert('Mail address copied to clipboard!');
+            }
+          </script>
+            <!-- <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            > -->
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Technical Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">Pytorch</div>
+              <div class="skills__skill">OpenCV</div>
+              <div class="skills__skill">OpenGL</div>
+              <div class="skills__skill">Numpy</div>
+              <div class="skills__skill">Pandas</div>
+              <div class="skills__skill">Trimesh</div>
+              <div class="skills__skill">Pyrender</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Bash</div>
+            </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Research Interests</h3>
+            <div class="skills">
+              <div class="skills__skill">Computer Vision</div>
+              <div class="skills__skill">Computer Graphics</div>
+              <div class="skills__skill">Deep Learning</div>
+              <div class="skills__skill">Virtual Avatar</div>
+              <div class="skills__skill">3D Registration</div>
+              <div class="skills__skill">Synthetic Data</div>
+              <div class="skills__skill">3D Human Pose and Shape Estimation</div>
+
+            </div>
+          </div>
+          <!-- <div class="about__content-skills">
+            <h3 class="about__content-title">Hobbies and Interests</h3>
+            <div class="skills">
+              <div class="skills__skill">Board Games</div>
+              <div class="skills__skill">Table Tennis</div>
+              <div class="skills__skill">Table Soccer</div>
+              <div class="skills__skill">Travelling</div>
+              <div class="skills__skill">Hiking</div>
+              <div class="skills__skill">Painting</div>
+              <div class="skills__skill">Reading</div>
+              <div class="skills__skill">Yoga and Meditation</div>
+
+            </div> -->
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects and Publications</span>
+        </h2>
+
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/bedlam.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">BEDLAM: A Synthetic Dataset of
+                Bodies Exhibiting Detailed Lifelike Animated Motion</h3>
+              <p class="projects__row-content-desc">
+                BEDLAM is a synthetic dataset consisting of realistic monocular RGB videos with accurately simulated 3D bodies, 
+                diverse clothing, and varied environments, enabling state-of-the-art accuracy in 3D human pose and shape estimation tasks using synthetic training data. 
+              </p>
+              <a
+                href="https://bedlam.is.tue.mpg.de/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Project Page</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/agora.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">AGORA: Avatars in Geography Optimized for Regression Analysis              </h3>
+              <p class="projects__row-content-desc">
+                AGORA is a synthetic dataset that addresses the domain gap in 3D human pose estimation dataset by providing highly realistic images with accurate ground truth in SMPL/SMPL-X format, including diverse poses, natural clothing, and variations in lighting and environments.
+                It exposes the limitations of current methods and enables the development of improved models.      </p>
+              <a
+                href="https://agora.is.tue.mpg.de/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Project Page</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/registration.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Model Registration Pipeline for 3D Scans
+              </h3>
+              <p class="projects__row-content-desc">
+               A modular and scalable pipeline for registering different body models, such as SMPL, SMPL-X, and SMIL, to 3D scans in Pytorch.
+               The key features include rendering 3D scans from multiple camera viewpoints, estimating 2D keypoints in each view, optimizing model poses by minimizing the projected 2D keypoints loss across all views, and utilizing point-to-surface distance for precise alignment of the model and the scan after an initial proximity estimation. 
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/priyanka-patel-6b545540/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/pixelite1201/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="
+              https://twitter.com/PriyankaP1201?t=-FDuF3CFKL5atC51m4Er5g&s=09">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+            
+            </div>
+          </div>
+          <!-- <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Priyanka Patel</h4>
+            <p class="main-footer__short-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+              tempora explicabo quae quod deserunt
+            </p>
+          </div>
+        </div> -->
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Based on theme
+
+          <a rel="noreferrer" target="_blank" href="https://github.com/rammcodes/Dopefolio"
+            >Dopefolio</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
