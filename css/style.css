@@ -141,7 +141,6 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 2px;
   display: flex;
-  flex-wrap: wrap; 
   font-weight: 700;
   border-radius: px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
