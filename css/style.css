@@ -168,7 +168,7 @@ textarea {
 
 .btn_container{
   display: flex;
-  gap: 5px
+  gap: 20px
 }
 .sec-pad {
   padding: 8rem 0; }
