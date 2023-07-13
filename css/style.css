@@ -140,8 +140,7 @@ textarea {
   color: #333;
   text-transform: uppercase;
   letter-spacing: 2px;
-  display: flex;
-  flex-wrap: wrap; 
+  display: inline-block;
   font-weight: 700;
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
@@ -167,6 +166,9 @@ textarea {
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
+.btn_container{
+  display: flex;
+}
 .sec-pad {
   padding: 8rem 0; }
   @media only screen and (max-width: 56.25em) {
