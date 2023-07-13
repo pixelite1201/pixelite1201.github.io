@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
+    <title>Priyanka Patel</title>
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -250,16 +250,37 @@
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">BEDLAM: A Synthetic Dataset of
                 Bodies Exhibiting Detailed Lifelike Animated Motion</h3>
+                <br>
+                <small>Michael J. Black, Priyanka Patel, Joachim Tesch, Jinlong Yang</small>
               <p class="projects__row-content-desc">
                 BEDLAM is a synthetic dataset consisting of realistic monocular RGB videos with accurately simulated 3D bodies, 
                 diverse clothing, and varied environments, enabling state-of-the-art accuracy in 3D human pose and shape estimation tasks using synthetic training data. 
-              </p>
+                As part of the project, my work involves training various regressors to estimate human pose and shape using the BEDLAM dataset. 
+                Additionally, I conducted comprehensive ablations and evaluations on different benchmarks to assess the performance and effectiveness of these regressors.           </p>
               <a
                 href="https://bedlam.is.tue.mpg.de/"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn--small btn--theme dynamicBgClr"
                 target="_blank"
                 >Project Page</a
-              >
+              >,
+              <a
+              href="https://github.com/pixelite1201/BEDLAM"
+              class="btn btn--small btn--theme dynamicBgClr"
+              target="_blank"
+              >Code</a
+            >,
+            <a
+            href="https://arxiv.org/abs/2306.16940"
+            class="btn btn--small btn--theme dynamicBgClr"
+            target="_blank"
+            >arXiv</a
+            >,
+            <a
+            href="https://youtu.be/OBttHFwdtfI"
+            class="btn btn--small btn--theme dynamicBgClr"
+            target="_blank"
+            >Video</a
+          >
             </div>
           </div>
           <div class="projects__row">
@@ -273,15 +294,71 @@
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">AGORA: Avatars in Geography Optimized for Regression Analysis              </h3>
+              <br>
+              <small>Priyanka Patel, Chun-Hao P. Huang, Joachim Tesch, David T. Hoffmann, Shashank Tripathi and Michael J. Black</small>
               <p class="projects__row-content-desc">
-                AGORA is a synthetic dataset that addresses the domain gap in 3D human pose estimation dataset by providing highly realistic images with accurate ground truth in SMPL/SMPL-X format, including diverse poses, natural clothing, and variations in lighting and environments.
-                It exposes the limitations of current methods and enables the development of improved models.      </p>
+                AGORA is a synthetic dataset that addresses the domain gap in 3D human pose and shape estimation dataset by providing highly realistic images with accurate ground truth in SMPL/SMPL-X format, including diverse poses, natural clothing, and variations in lighting and environments.
+                It exposes the limitations of current methods and enables the development of improved models. </p>
               <a
                 href="https://agora.is.tue.mpg.de/"
-                class="btn btn--med btn--theme dynamicBgClr"
+                class="btn btn--small btn--theme dynamicBgClr"
                 target="_blank"
                 >Project Page</a
-              >
+              >,
+              <a
+                href="https://github.com/pixelite1201/agora_evaluation"
+                class="btn btn--small btn--theme dynamicBgClr"
+                target="_blank"
+                >Code</a
+              >,
+              <a
+              href="https://arxiv.org/abs/2104.14643"
+              class="btn btn--small btn--theme dynamicBgClr"
+              target="_blank"
+              >arXiv</a
+            >,
+              <a
+              href="https://youtu.be/Ng6wVOmQHls"
+              class="btn btn--small btn--theme dynamicBgClr"
+              target="_blank"
+              >Video</a
+            >,
+            <a
+            href="https://agora-evaluation.is.tuebingen.mpg.de/"
+            class="btn btn--small btn--theme dynamicBgClr"
+            target="_blank"
+            >Evaluation</a
+          >
+            </div>
+          </div>
+          
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/coma.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">COMA in Pytorch
+              </h3>
+              <p class="projects__row-content-desc">
+                COMA (Convolutional Mesh Autoencoder) is an advanced technique for accurately representing 3D faces in a low-dimensional latent space. It surpasses the performance of linear PCA models while employing fewer parameters. In order to make it more accessible and adaptable, 
+                I have successfully ported the original code from Tensorflow to PyTorch, leveraging the capabilities of the torch-geometric library.
+              </p>
+              <a
+                href="https://coma.is.tue.mpg.de/"
+                class="btn btn--small btn--theme dynamicBgClr"
+                target="_blank"
+                >Project Page</a
+              >,<a
+              href="https://github.com/pixelite1201"
+              class="btn btn--small btn--theme dynamicBgClr"
+              target="_blank"
+              >Github Page</a
+            >
             </div>
           </div>
           <div class="projects__row">
@@ -298,7 +375,32 @@
               </h3>
               <p class="projects__row-content-desc">
                A modular and scalable pipeline for registering different body models, such as SMPL, SMPL-X, and SMIL, to 3D scans in Pytorch.
-               The key features include rendering 3D scans from multiple camera viewpoints, estimating 2D keypoints in each view, optimizing model poses by minimizing the projected 2D keypoints loss across all views, and utilizing point-to-surface distance for precise alignment of the model and the scan after an initial proximity estimation. 
+               The key features include rendering 3D scans from multiple camera viewpoints, estimating 2D keypoints in each view, 
+               optimizing model poses by minimizing the projected 2D keypoints loss across all views, and utilizing point-to-surface 
+               distance for precise alignment of the model and the scan after an initial proximity estimation. 
+              </p>
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/clothregistration.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Registration for clothed 3D Scans
+              </h3>
+              <p class="projects__row-content-desc">
+               As part of the project AGORA, I work on registering SMPL-X model to 3D scans with clothing and hair. 
+               This task presents a greater challenge compared to scans with minimal clothing, as the point-to-surface distance tends 
+               to distort the body in order to accommodate the clothing. To address this issue, I employ Graphonomy,
+               which help in separating the scan into skin and clothing vertices.
+               I further implemented an optimization term to minimize the point to surface distance for skin region while
+               simultaneously ensuring the body remains appropriately enclosed within the clothing.
               </p>
 
             </div>
